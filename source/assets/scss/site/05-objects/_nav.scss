@@ -1,0 +1,53 @@
+// Nav
+///
+/// @author Hemerson Vianna
+///
+/// @access public
+///
+
+%nav_link {
+	color: $project-color-darkgray-2;
+	text-decoration: none;
+}
+
+/// Nav  Horizontal
+.nav_horizontal {
+	text-align: center;
+}
+
+.nav_horizontal-list {
+
+}
+
+.nav_horizontal-item {
+	display: inline-block;
+}
+
+.nav_horizontal-link {
+	@extend %nav_link;
+}
+
+.nav_horizontal-text {
+
+}
+
+/// Nav  Vertical
+.nav_vertical {
+	text-align: left;
+}
+
+.nav_vertical-list {
+
+}
+
+.nav_vertical-item {
+	display: block;
+}
+
+.nav_vertical-link {
+	@extend %nav_link;
+}
+
+.nav_vertical-text {
+
+}

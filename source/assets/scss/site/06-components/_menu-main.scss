@@ -1,0 +1,153 @@
+// Menu Main
+///
+/// @author Hemerson Vianna
+///
+/// @access public
+///
+
+.button-menu_main {
+	@include x-icon(fa-bars);
+	background: none;
+	border: none;
+	color: $project-color-blue-1;
+	float: left;
+	padding-left: 0.7em;
+    padding-top: 0.5em;
+
+	&:before {
+		display: block;
+		font-size: 2.6em;
+		margin: 0;
+		text-align: center;
+	}
+
+	@media(min-width:$screen-desktop) {
+		display: none;
+	}
+}
+
+.menu_main {
+	box-shadow: 0 0 1.5em $project-color-lightgray-1;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	max-width: 100%;
+	transition: all 300ms;
+
+	@media(min-width:$screen-desktop) {
+		box-shadow: none;
+		position: static;
+		left: auto;
+		float: right;
+		padding-top: 5em;
+		text-align: center;
+	}
+}
+
+.menu_main-list {}
+
+.menu_main-item {
+	border-top: 0.1em solid $project-color-lightgray-2;
+
+	@media(min-width:$screen-desktop) {
+		border-top: none;
+		display: inline-block;
+		padding: 0 2em;
+	}
+
+	&:first-child {
+		border-top: none;
+	}
+}
+
+.menu_main-link {
+	display: block;
+    padding: 1.2em 2em;
+    line-height: 1;
+    text-decoration: none;
+
+	@media(min-width:$screen-desktop) {
+		display: inline-block;
+		line-height: 1;
+		padding: 0;
+		padding-bottom: 0.2em;
+
+		&:after {
+			background: $project-color-blue-3;
+			content: '';
+	   		display: block;
+			height: 3px;
+			margin-top: 3px;
+		    width: 0;
+		    transition: width 0.4s ease, background 0.4s ease;
+		}
+	}
+}
+
+.menu_main-link:hover,
+.menu_main-link.on {
+	&:after {
+		@media(min-width:$screen-desktop) {
+			transition: width 0.5s ease;
+			width: 100%;
+		}
+	}
+}
+
+.menu_main-text {
+	color: $project-color-lightgray-1;
+	font-size: 1.8em;
+	line-height: 1;
+
+	@media(min-width:$screen-desktop) {
+		font-size: 1.6em;
+		font-weight: 700;
+	}
+}
+
+.menu_main-item--admin {
+	background: $project-color-blue-3;
+
+	.menu_main-text {
+		color: #fff;
+	}
+
+	@media(min-width:$screen-desktop) {
+		background: none;
+		border-top: 0.8em solid $project-color-blue-3;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		.menu_main-link {
+			float: right;
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.menu_main-text {
+			background: $project-color-blue-3;
+			border-radius: 0 0 1em 1em;
+			font-size: 1.3em;
+			font-weight: 400;
+			padding: 0.5em 2em;
+		}
+	}
+}
+
+.on .wrapper {
+	position: fixed;
+	top: 0;
+	left: 85%;
+	transition: all 300ms;
+}
+
+.on .menu_main {
+	left: 0;
+	transition: all 300ms;
+	width: 85%;
+}
