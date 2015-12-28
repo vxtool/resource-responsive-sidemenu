@@ -1,6 +1,21 @@
 {
   "name": "sidemenu",
+  "description": "Sidemenu mobile responsive",
   "version": "1.0.0",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://hemersonvianna.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resource-solutions/resource-responsive-sidemenu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/resource-solutions/resource-responsive-sidemenu/issues"
+  },
+  "tags": [
+    "menu",
+    "sidemenu",
+    "reponsive",
+    "navigation"
+  ],
   "dependencies": {},
   "devDependencies": {
   	"grunt": ">=0.4.5",
@@ -15,5 +30,12 @@
     "grunt-sass": "^1.0.0",
     "imagemin-mozjpeg": "^5.1.0",
     "load-grunt-config": "^0.17.2"
-  }
+  },
+  "scripts": {
+    "postinstall": "grunt"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  },
+  "license": "MIT"
 }
