@@ -1,9 +1,4 @@
 // Logotype
-///
-/// @author Hemerson Vianna
-///
-/// @access public
-///
 
 .logotype {
 	float: right;
@@ -17,15 +12,6 @@
 }
 
 .logotype-text {
-	@include x-text-hide;
-}
-
-.logotype-svg {
-	height: 33px;
-	width: 170px;
-
-	@media(min-width:$screen-desktop) {
-		height: 60px;
-		width: 300px;
-	}
+	font-size: 2em;
+	text-transform: uppercase;
 }
