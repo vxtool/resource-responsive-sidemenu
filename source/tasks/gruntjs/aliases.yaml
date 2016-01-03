@@ -1,9 +1,5 @@
 default:
   - 'clean'
-  - 'copy'
   - 'sass'
   - 'cmq'
   - 'cssmin'
-  - 'jshint'
-  - 'uglify'
-  - 'imagemin'
