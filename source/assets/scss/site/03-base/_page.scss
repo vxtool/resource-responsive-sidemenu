@@ -1,3 +1,9 @@
 body {
-  font-family: $project-font-family;
+	font-size: $project-font-size;
+	font-family: $project-font-family;
+}
+
+.header {
+	@include x-clearfix;
+	margin-bottom: 1em;
 }
