@@ -1,12 +1,6 @@
 // Menu Main
-///
-/// @author Hemerson Vianna
-///
-/// @access public
-///
 
 .button-menu_main {
-	@include x-icon(fa-bars);
 	background: none;
 	border: none;
 	color: $project-color-blue-1;
@@ -40,7 +34,7 @@
 		position: static;
 		left: auto;
 		float: right;
-		padding-top: 5em;
+		padding-top: 3.4em;
 		text-align: center;
 	}
 }
@@ -56,9 +50,7 @@
 		padding: 0 2em;
 	}
 
-	&:first-child {
-		border-top: none;
-	}
+	&:first-child { border-top: none; }
 }
 
 .menu_main-link {
@@ -109,9 +101,7 @@
 .menu_main-item--admin {
 	background: $project-color-blue-3;
 
-	.menu_main-text {
-		color: #fff;
-	}
+	.menu_main-text { color: #fff; }
 
 	@media(min-width:$screen-desktop) {
 		background: none;
@@ -124,9 +114,7 @@
 		.menu_main-link {
 			float: right;
 
-			&:after {
-				display: none;
-			}
+			&:after { display: none; }
 		}
 
 		.menu_main-text {
