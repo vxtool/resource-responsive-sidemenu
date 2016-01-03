@@ -1,3 +1,10 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2016-01-03)
+
+### Bug Fix
+
+* **script:** Correcting the placement of the script
+
 <a name="1.2.0"></a>
 ## 1.2.0 (2016-01-03)
 
