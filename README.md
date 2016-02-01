@@ -1,7 +1,7 @@
 # Sidemenu mobile responsive
 
-[![licence mit](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/resource-solutions/resource-responsive-sidemenu/blob/master/LICENSE.md)
-[![issues](https://img.shields.io/github/issues/resource-solutions/resource-responsive-sidemenu.svg)](https://github.com/resource-solutions/resource-responsive-sidemenu/issues)
+[![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
+[![issues](https://img.shields.io/github/issues/resource-solutions/resource-responsive-sidemenu.svg?style=flat-square)](https://github.com/resource-solutions/resource-responsive-sidemenu/issues)
 [![devDependency Status](https://david-dm.org/resource-solutions/resource-responsive-sidemenu/dev-status.svg)](https://david-dm.org/resource-solutions/resource-responsive-sidemenu#info=devDependencies)
 
 ## Install
