@@ -1,8 +1,8 @@
 # Sidemenu mobile responsive
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/resource-solutions/resource-responsive-sidemenu.svg?style=flat-square)](https://github.com/resource-solutions/resource-responsive-sidemenu/issues)
-[![devDependency Status](https://david-dm.org/resource-solutions/resource-responsive-sidemenu/dev-status.svg)](https://david-dm.org/resource-solutions/resource-responsive-sidemenu#info=devDependencies)
+[![issues](https://img.shields.io/github/issues/descco-tools/resource-responsive-sidemenu.svg?style=flat-square)](https://github.com/descco-tools/resource-responsive-sidemenu/issues)
+[![devDependency Status](https://david-dm.org/descco-tools/resource-responsive-sidemenu/dev-status.svg)](https://david-dm.org/descco-tools/resource-responsive-sidemenu#info=devDependencies)
 
 ## Install
 
@@ -20,7 +20,7 @@ npm install
 
 ## Log
 
-Check [Releases](https://github.com/resource-solutions/resource-responsive-sidemenu/releases) for detailed changelog.
+Check [Releases](https://github.com/descco-tools/resource-responsive-sidemenu/releases) for detailed changelog.
 
 ## License
 

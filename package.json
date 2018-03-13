@@ -2,13 +2,13 @@
   "name": "sidemenu",
   "description": "Sidemenu mobile responsive",
   "version": "1.2.1",
-  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://hemersonvianna.io)",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.io)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/resource-solutions/resource-responsive-sidemenu.git"
+    "url": "https://github.com/descco-tools/resource-responsive-sidemenu.git"
   },
   "bugs": {
-    "url": "https://github.com/resource-solutions/resource-responsive-sidemenu/issues"
+    "url": "https://github.com/descco-tools/resource-responsive-sidemenu/issues"
   },
   "tags": [
     "menu",
