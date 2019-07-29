@@ -1,7 +1,7 @@
 {
   "name": "sidemenu",
   "description": "Sidemenu mobile responsive",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.io)",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-  	"grunt": ">=0.4.5",
+    "grunt": ">=0.4.5",
     "grunt-combine-media-queries": "~1.0.19",
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-cssmin": "^0.14.0",
